@@ -14,6 +14,10 @@ function soma (valor1, valor2) {
     return valor1 + valor2;
     }
 
-function realParaDolar ()
+function realParaDolar (real, cotacaoDolar) {
+    return real * cotacaoDolar;
+}
+
+alert(realParaDolar (10,5.69))
 
 document.getElementById("texto").innerHTML = soma (2,10)
