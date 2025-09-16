@@ -24,8 +24,25 @@ onresize -> Disparado quando há um redimencionamento da janela.
 
 function eventoClique() {
     return document.body.style.backgroundColor="yellow", 
-        alert("Acionou um Evento Clique")
-};
+        alert("Acionou um Evento Clique");
+}
 
+function eventoDblClique () {
+    alert('Eveneto de clique duplo');
+}
+
+function viraVermelho() {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor="red";
+}
+
+function viraAzul() {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor="blue";
+}
+function adicionaTexto() {
+    let p = document.getElementById("texto");
+    p.innerHTML=(" o mouse moveu,");
+}
 
 
